@@ -10,21 +10,21 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building.."
+                echo "Building stage.."
                 sh '''
                 '''
             }
         }
         stage('Test') {
             steps {
-                echo "Testing.."
+                echo "Testing stage.."
                 sh '''
                 '''
             }
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver....'
+                echo 'Deliver stage....'
                 sh '''
                 echo "doing delivery stuff.."
                 '''
